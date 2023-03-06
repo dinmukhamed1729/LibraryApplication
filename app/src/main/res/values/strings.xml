@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LibraryApplication</string>
+    <string name="todo">TODO</string>
+    <string name="create_new_account">Create new Account</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="new_user_singup">New user <b>singUp</b></string>
+</resources>

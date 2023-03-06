@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgraund"
+    android:layout_height="match_parent"
+    tools:context=".DashBoardUserActivity">
+    <RelativeLayout
+        android:id="@+id/toolbarRL"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/shape_toolbar02">
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard User"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            android:layout_centerHorizontal="true"
+
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/subTitleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="admin@gmail.com"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/titleTv"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textSize="10sp"
+            />
+
+        <ImageButton
+            android:id="@+id/loginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/app_name"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_logout_white" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
